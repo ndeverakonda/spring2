@@ -8,7 +8,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(ProjectConfig.class);
         Bar bar = context.getBean(Bar.class);
         bar.execute();
         context.close();

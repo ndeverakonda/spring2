@@ -1,5 +1,5 @@
 package com.eazybytes.beans;
 
 public interface Foo {
-    void doSomething();
+    void doSomething(String msg);
 }

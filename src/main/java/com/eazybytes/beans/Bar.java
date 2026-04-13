@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Bar {
 
+
     private final Foo foo;
 
     @Autowired
@@ -15,6 +16,6 @@ public class Bar {
     }
 
     public void execute() {
-        foo.doSomething();
+        foo.doSomething("injected into Bar");
     }
 }
