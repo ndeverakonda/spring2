@@ -16,6 +16,6 @@ public class Bar {
     }
 
     public void execute() {
-        foo.doSomething("injected into Bar");
+        foo.doSomething();
     }
 }

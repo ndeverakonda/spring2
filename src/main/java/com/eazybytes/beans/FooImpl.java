@@ -8,7 +8,7 @@ public class FooImpl implements Foo {
     }
 
     @Override
-    public void doSomething(String msg) {
-        System.out.println(label + " " + msg);
+    public void doSomething() {
+        System.out.println(label+" INJECTED");
     }
 }
